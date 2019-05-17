@@ -1,0 +1,11 @@
+plugins {
+    id "ru.vyarus.mkdocs" version "1.1.0"
+}
+
+python {
+    pip 'pip:19.1.1'
+    pip 'mkdocs-material:4.0.1'
+    pip 'pymdown-extensions:6.0'
+}
+
+python.scope = USER
